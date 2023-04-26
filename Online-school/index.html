@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Онлайн школа</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css" >
+</head>
+<body>
+
+    
+
+  <header>
+    <div class="header container">
+
+      <nav>
+        <ul>
+          <li><a href="#️gl">Главная</a></li>
+          <li><a href="#spas">Преподаватели</a></li>
+          <li><a class="fdfd">Другое</a>
+            <ul class="sub-menu">
+              <li class="dfds"><a href="#otz">Посмотреть отзывы</a></li>
+              <li><a href="#fot">Фотогалерея</a></li>
+            </ul></li>
+        </ul>
+      </nav>
+     
+      <div class="nav">
+        
+        <div class="buts">
+          
+          <button class="b1" >Позвонить нам</button>
+          <button  type="submit" class="b2" onclick="openPopup()">Записаться на урок</button>
+        </div>
+        </div>
+        <button class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+    </div>
+  </header>
+   <main class="" id="gl">
+    <video class="ffon" src="./images/fon2.mp4" autoplay muted loop></video>
+    <div class="butts">
+        <button class="b3">Позвонить нам</button>
+        <button  type="submit" class="b4" onclick="openPopup()">Записаться на урок</button>
+      </div>
+    <h1 class="h1 container content">Качественное обучение — <br> успешное будущее.</h1>
+    <div class="btns container content"><button class="b1" onclick="openPopup()"    >Записаться на урок</button>
+      <button class="b2" onclick="openPopup()">Попробовать бесплатно</button></div>
+      <div class="popup" id="popup">
+        <h2>Запись</h2>
+        <form action="inp1">
+          <input type="text" placeholder="Ваше имя">
+          <input type="text" placeholder="Ваша фамилия" >
+          <input type="text" class="hh" placeholder="Номер телефона">
+        </form>
+        <button type="button" class="kllk" onclick="closePopup()">Ждать звонок</button>
+        <p>Мы вам перезвоним 
+          и уточним <br>   время и преподавателя</p>
+      </div>
+  </main>
+  
+  <section class="catalog" id="spas"><div class="container3">
+    <div class="title content">
+        <h2>Наш педогогический состав</h2>
+    </div>
+    <div class="content3">
+        <div class="list">
+            <div class="start">
+                <li data-color=".All">ОГЭ/ЕГЭ</li>
+                <li data-color=".tn">Точные науки</li>
+                <li data-color=".so">Современно</li>
+            </div>
+            
+            <div class="end">
+              <li data-color=".box" class="all">Смотреть всех
+                 </li>
+            </div>
+          
+        </div>
+
+        <div class="box_flex">
+
+            <div class="box All ">
+                <div class="box_img">
+
+                    <img src="images/ww.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h2>Николай Игоревич</h2>
+                    <h6>Преподаватель истории и обществознания ОГЭ/ЕГЭ</h6>
+                    
+                    
+                </div>
+            </div>
+
+        <div class="box All tn">
+
+                <div class="box_img">
+
+                    <img src="./images/1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h2>Ильнур Айназович</h2>
+                    <h6>Преподаватель химии и физики <br class="br"> ОГЭ/ЕГЭ</h6>
+                    
+                </div>
+            </div>
+
+            <div class="box featured">
+
+                <div class="box_img">
+
+                    <img src="./images/2.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h2>Андрей Даниилович</h2>
+                    <h6>Преподаватель английского языка <br class="br"> 1-4 классы</h6>
+
+                    
+                </div>
+            </div>
+
+            <div class="box featured so">
+
+                <div class="box_img">
+
+                    <img src="./images/3.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h2>Сергей Никитич</h2>
+                    <h6>Преподаватель программирования <br class="br"> на Python</h6>
+                    
+                </div>
+            </div>
+            <div class="box All featured">
+
+                <div class="box_img">
+
+                    <img src="./images/4.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h2>Анас Алмазович</h2>
+                    <h6>Преподаватель русского языка и литературы ОГЭ/ЕГЭ</h6>
+                    
+                </div>
+            </div>
+            <div class="box featured tn">
+
+                <div class="box_img">
+
+                    <img src="./images/5.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h2>Илья Артемиевич</h2>
+                    <h6>Преподаватель физики и химии <br class="br"> 7-8 классы</h6>
+                    
+                </div>
+            </div>
+            <div class="box featured">
+    
+                <div class="box_img">
+
+                    <img src="./images/hhhh.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h2>Евгений Юрьевич</h2>
+                    <h6>Преподаватель русского языка и <br class="br"> литературы 5-8 классы</h6>
+                    
+                </div>
+            </div>
+            <div class="box featured tn">
+   
+                <div class="box_img">
+
+                    <img src="./images/www.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h2>Кирилл Семенович</h2>
+                    <h6>Преподаватель алгебры и геометрии <br class="br"> 7-8 классы</h6>
+                    
+                    
+                </div>
+            </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+</section>
+   <section class="otziv " id="otz">
+    <h2 class="h22 content">Что о нас думают люди</h2>
+    <div class="slide-container swiper">
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+         
+
+
+
+         <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="photo"><img class="foto" src="./images/otziv1.jpg" alt=""></div>
+              <div class="coment"><h4 class="names">Анастасия</h4>
+                <p class="text">Мне нужно было подготовиться к ЕГЭ по обществу. За 10 часов узнала больше, чем за 10 лет в школе!</p></div>        
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="photo"><img class="foto" src="./images/otziv2.jpg" alt=""></div>
+              <div class="coment"><h4 class="names">Евгения</h4>
+                <p class="text">После болезни у дочери были проблемы по русском языком, но мы быстро все наверстали.</p></div>        
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="photo"><img class="foto" src="./images/otziv3.jpg" alt=""></div>
+              <div class="coment"><h4 class="names">Игорь</h4>
+                <p class="text">Решил поизучать питон чисто для себя, но затянулся в эту тему и сейчас я - фрилансер. Рекомендую школу!</p></div>        
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="photo"><img class="foto" src="./images/otziv4.jpg" alt=""></div>
+              <div class="coment"><h4 class="names">Рафаэль</h4>
+                <p class="text">Я давно закончил школу, но англ.яз. не знал абсолютно, начал изучать так как требовали на работе. Thank you.</p></div>        
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="photo"><img class="foto" src="./images/otziv5.jpg" alt=""></div>
+              <div class="coment"><h4 class="names">Евгения</h4>
+                <p class="text">Я сама учитель, но не могла понять интегралы. Поэтому к вам. Результатом довольна!</p></div>        
+            </div>
+          </div>
+          </div>
+
+
+          
+        </div>
+      </div>
+    </div>
+</section> 
+   <section class="photos" id="fot">
+    <div class="pho">
+        <div class="ttt content"><h2>Выбирай сам как ты хочешь учиться</h2></div>
+    <div class="grr">
+        <div class="items first"><img src="./images/i1.webp" alt="" /></div>
+        <div class="items cent"><img src="./images/i2.webp" alt="" /></div>
+        <div class="items vnz"><img src="./images/i3.webp" alt=""></div>
+
+        <div class="items vniz"><img src="./images/i4.webp" alt="" /></div>
+        <div class="items vnz"><p>Cам выбираешь преподавателя</p></div>
+        <div class="items vn"><img src="./images/i5.webp" alt="" /></div>
+        <div class="items prost"><p>Не тратишь время на дорогу</p></div>
+        <div class="items on"><img src="./images/i7.webp" alt="" /></div>
+        <div class="items prosto1"><img src="./images/i8.webp" alt="" /></div>
+      </div></div>
+  </section>
+   <footer><p>© Салахов Амир, 2023</p></footer>
+  <script src="./js/swiper-bundle.min.js"></script>
+<script>
+  
+</script>
+  <!-- JavaScript -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
